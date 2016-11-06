@@ -1,0 +1,184 @@
+{
+  "sutaze": [
+    {
+      "zapasy": [
+        {
+          "vysledky": [
+            {
+              "datumZaciatku": "05.11. 10:34",
+              "super1": "Pace Setter",
+              "super2": "",
+              "vysledok": "1",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 10:34",
+              "super1": "Track Attacker",
+              "super2": "",
+              "vysledok": "2",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 10:34",
+              "super1": "The Brass Monk",
+              "super2": "",
+              "vysledok": "3",
+              "skore": ""
+            }
+          ]
+        },
+        {
+          "vysledky": [
+            {
+              "datumZaciatku": "05.11. 10:42",
+              "super1": "Dare Devil",
+              "super2": "",
+              "vysledok": "1",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 10:42",
+              "super1": "Wacky Racer",
+              "super2": "",
+              "vysledok": "2",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 10:42",
+              "super1": "Dimetri",
+              "super2": "",
+              "vysledok": "3",
+              "skore": ""
+            }
+          ]
+        },
+        {
+          "vysledky": [
+            {
+              "datumZaciatku": "05.11. 10:50",
+              "super1": "Dog Of War",
+              "super2": "",
+              "vysledok": "1",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 10:50",
+              "super1": "Fourleggedfriend",
+              "super2": "",
+              "vysledok": "2",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 10:50",
+              "super1": "Jumping Jock",
+              "super2": "",
+              "vysledok": "3",
+              "skore": ""
+            }
+          ]
+        },
+        {
+          "vysledky": [
+            {
+              "datumZaciatku": "05.11. 10:58",
+              "super1": "Heavens Tipping",
+              "super2": "",
+              "vysledok": "1",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 10:58",
+              "super1": "Just Jazz",
+              "super2": "",
+              "vysledok": "2",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 10:58",
+              "super1": "Slumper",
+              "super2": "",
+              "vysledok": "3",
+              "skore": ""
+            }
+          ]
+        },
+        {
+          "vysledky": [
+            {
+              "datumZaciatku": "05.11. 11:06",
+              "super1": "Hungry Henry",
+              "super2": "",
+              "vysledok": "1",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 11:06",
+              "super1": "Beats Working",
+              "super2": "",
+              "vysledok": "2",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 11:06",
+              "super1": "Squishy Fish",
+              "super2": "",
+              "vysledok": "3",
+              "skore": ""
+            }
+          ]
+        },
+        {
+          "vysledky": [
+            {
+              "datumZaciatku": "05.11. 11:14",
+              "super1": "Latchkey Kid",
+              "super2": "",
+              "vysledok": "1",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 11:14",
+              "super1": "Waster Space",
+              "super2": "",
+              "vysledok": "2",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 11:14",
+              "super1": "Muzzle Puzzle",
+              "super2": "",
+              "vysledok": "3",
+              "skore": ""
+            }
+          ]
+        },
+        {
+          "vysledky": [
+            {
+              "datumZaciatku": "05.11. 11:22",
+              "super1": "Jester",
+              "super2": "",
+              "vysledok": "1",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 11:22",
+              "super1": "Big Mamma",
+              "super2": "",
+              "vysledok": "2",
+              "skore": ""
+            },
+            {
+              "datumZaciatku": "05.11. 11:22",
+              "super1": "To Infinity",
+              "super2": "",
+              "vysledok": "3",
+              "skore": ""
+            }
+          ]
+        }
+      ],
+      "nazov": "Chrty"
+    }
+  ]
+}

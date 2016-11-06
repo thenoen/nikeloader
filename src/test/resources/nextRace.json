@@ -1,0 +1,142 @@
+{
+  "udalosti" : [ {
+    "id" : 110246620,
+    "cislo" : "1",
+    "obrazok" : "chrty1.jpg",
+    "super1" : "Smooth As Silk",
+    "super2" : "",
+    "kurzGroups" : [ {
+      "kurzy" : [ {
+        "nazov" : "1",
+        "hodnota" : 3.70,
+        "tipID" : "TIP_1"
+      }, {
+        "nazov" : "1-2",
+        "hodnota" : 1.93,
+        "tipID" : "TIP_2"
+      }, {
+        "nazov" : "1-3",
+        "hodnota" : 1.35,
+        "tipID" : "TIP_3"
+      } ]
+    } ]
+  }, {
+    "id" : 110245294,
+    "cislo" : "2",
+    "obrazok" : "chrty2.jpg",
+    "super1" : "Vinnie Spokes",
+    "super2" : "",
+    "kurzGroups" : [ {
+      "kurzy" : [ {
+        "nazov" : "1",
+        "hodnota" : 8.30,
+        "tipID" : "TIP_1"
+      }, {
+        "nazov" : "1-2",
+        "hodnota" : 3.91,
+        "tipID" : "TIP_2"
+      }, {
+        "nazov" : "1-3",
+        "hodnota" : 2.45,
+        "tipID" : "TIP_3"
+      } ]
+    } ]
+  }, {
+    "id" : 110245580,
+    "cislo" : "3",
+    "obrazok" : "chrty3.jpg",
+    "super1" : "Sir Losealot",
+    "super2" : "",
+    "kurzGroups" : [ {
+      "kurzy" : [ {
+        "nazov" : "1",
+        "hodnota" : 5.50,
+        "tipID" : "TIP_1"
+      }, {
+        "nazov" : "1-2",
+        "hodnota" : 2.69,
+        "tipID" : "TIP_2"
+      }, {
+        "nazov" : "1-3",
+        "hodnota" : 1.75,
+        "tipID" : "TIP_3"
+      } ]
+    } ]
+  }, {
+    "id" : 110247495,
+    "cislo" : "4",
+    "obrazok" : "chrty4.jpg",
+    "super1" : "Abra Cadabra",
+    "super2" : "",
+    "kurzGroups" : [ {
+      "kurzy" : [ {
+        "nazov" : "1",
+        "hodnota" : 3.70,
+        "tipID" : "TIP_1"
+      }, {
+        "nazov" : "1-2",
+        "hodnota" : 1.94,
+        "tipID" : "TIP_2"
+      }, {
+        "nazov" : "1-3",
+        "hodnota" : 1.45,
+        "tipID" : "TIP_3"
+      } ]
+    } ]
+  }, {
+    "id" : 110247085,
+    "cislo" : "5",
+    "obrazok" : "chrty5.jpg",
+    "super1" : "Hollywood Hero",
+    "super2" : "",
+    "kurzGroups" : [ {
+      "kurzy" : [ {
+        "nazov" : "1",
+        "hodnota" : 6.90,
+        "tipID" : "TIP_1"
+      }, {
+        "nazov" : "1-2",
+        "hodnota" : 3.29,
+        "tipID" : "TIP_2"
+      }, {
+        "nazov" : "1-3",
+        "hodnota" : 2.09,
+        "tipID" : "TIP_3"
+      } ]
+    } ]
+  }, {
+    "id" : 110246725,
+    "cislo" : "6",
+    "obrazok" : "chrty6.jpg",
+    "super1" : "Natural Talent",
+    "super2" : "",
+    "kurzGroups" : [ {
+      "kurzy" : [ {
+        "nazov" : "1",
+        "hodnota" : 5.70,
+        "tipID" : "TIP_1"
+      }, {
+        "nazov" : "1-2",
+        "hodnota" : 2.78,
+        "tipID" : "TIP_2"
+      }, {
+        "nazov" : "1-3",
+        "hodnota" : 1.81,
+        "tipID" : "TIP_3"
+      } ]
+    } ]
+  } ],
+  "sport" : {
+    "id" : 128,
+    "nazov" : "Dostihy",
+    "piktogram" : "vh_dostihy",
+    "ipSetStream" : "hry-1"
+  },
+  "nazovSutaze" : "Chrty",
+  "nextTime" : 1478359080000,
+  "ipSetStream" : "hry-1",
+  "lang" : "sk",
+  "timeoutDoZaciatku" : 217,
+  "timeoutDoBlokovania" : 207,
+  "timeoutDoZobrazeniaNovej" : 237
+}
