@@ -1,7 +1,6 @@
 package sk.thenoen.nikeloader.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import javafx.print.Collation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,11 +18,7 @@ import sk.thenoen.nikeloader.domain.model.Event;
 import sk.thenoen.nikeloader.domain.repository.EventRepository;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 import java.util.function.Predicate;
