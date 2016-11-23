@@ -1,5 +1,6 @@
 package sk.thenoen.nikeloader.service;
 
+import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +19,11 @@ public class ResultsLoadingServiceTest {
 
 	@Autowired
 	private ResultsLoadingService resultsLoadingService;
+
+	@After
+	public void cleanUp() {
+		eventRepository.deleteAll();
+	}
 
 	@Test
 	public void test() {

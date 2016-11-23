@@ -36,9 +36,12 @@ public class BettingServiceTest {
 
 		RaceDto raceDto = objectMapper.readValue(new ClassPathResource("/nextRace.json").getInputStream(), RaceDto.class);
 
+		List<Event> eventList = eventRepository.findAll();
+		Assert.assertEquals(0, eventList.size());
+
 		bettingService.bet(raceDto);
 
-		List<Event> eventList = eventRepository.findAll();
+		eventList = eventRepository.findAll();
 		Assert.assertEquals(6, eventList.size());
 
 		Event bet = null;
@@ -50,6 +53,6 @@ public class BettingServiceTest {
 			}
 		}
 
-		Assert.assertEquals("110247495", bet.getNikeId());
+		Assert.assertEquals("110247085", bet.getNikeId());
 	}
 }
