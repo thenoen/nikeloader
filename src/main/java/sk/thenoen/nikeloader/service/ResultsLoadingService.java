@@ -48,7 +48,8 @@ public class ResultsLoadingService {
 		for (Long timestamp : timestamtps) {
 			logger.info(getKeyFromTimestamp(timestamp));
 
-			ResultsDto resultsDto = loadResults(timestamp + 3480000); // + 58 min.
+//			ResultsDto resultsDto = loadResults(timestamp + 3480000); // + 58 min.
+			ResultsDto resultsDto = loadResults(timestamp);
 
 			SutazDto sutazDto = null;
 			for (SutazDto s : resultsDto.getSutaze()) {
