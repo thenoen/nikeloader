@@ -58,6 +58,9 @@ public class BettingService {
 
 		KurzDto bestKurzDto = map.keySet().stream().sorted((f1, f2) -> compare(abs(f1.getHodnota() - targetOdds), abs(f2.getHodnota() - targetOdds))).findFirst().get();
 
+		// todo: bug - if there is some delay in code it may happen that that finished time will be few miliseconds late
+		// System.currentTimeMillis() should be taken as soon as raceDto is received;
+		// RaceLoadingService:46 - put it inside raceDta as transient property
 		Long finishedTime = System.currentTimeMillis() + (raceDto.getTimeoutDoZaciatku() * 1000);
 
 		for (Map.Entry<KurzDto, UdalostDto> entry : map.entrySet()) {
