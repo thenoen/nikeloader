@@ -61,6 +61,7 @@ public class BettingService {
 		// todo: bug - if there is some delay in code it may happen that that finished time will be few miliseconds late
 		// System.currentTimeMillis() should be taken as soon as raceDto is received;
 		// RaceLoadingService:46 - put it inside raceDta as transient property
+		// or just for result fetching purposes decrease this time by a few minutes in request parameter (method loadResults)
 		Long finishedTime = System.currentTimeMillis() + (raceDto.getTimeoutDoZaciatku() * 1000);
 
 		for (Map.Entry<KurzDto, UdalostDto> entry : map.entrySet()) {
