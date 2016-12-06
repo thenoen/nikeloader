@@ -28,6 +28,8 @@ public class Event {
 
 	private Boolean knownResult = false;
 
+	private Integer place;
+
 	public Long getId() {
 		return id;
 	}
@@ -98,5 +100,13 @@ public class Event {
 
 	public void setKnownResult(Boolean knownResult) {
 		this.knownResult = knownResult;
+	}
+
+	public Integer getPlace() {
+		return place;
+	}
+
+	public void setPlace(Integer place) {
+		this.place = place;
 	}
 }

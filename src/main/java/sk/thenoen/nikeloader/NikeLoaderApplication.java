@@ -76,11 +76,12 @@ public class NikeLoaderApplication {
 				if (v.getDatumZaciatku().equals(key)) {
 					event.setKnownResult(true);
 					resultsAvailable = true;
-					if (v.getSuper1().equals(event.getName()) && event.getBetPlaced()) {
+					if (v.getSuper1().equals(event.getName())) {
 						int poradie = Integer.parseInt(v.getVysledok());
-						if (poradie < 4) {
-							event.setWinning(true);
+						event.setPlace(poradie);
+						if (poradie < 4 && event.getBetPlaced()) {
 							won = true;
+							event.setWinning(true);
 							odds = event.getBetRatio();
 						}
 					}
